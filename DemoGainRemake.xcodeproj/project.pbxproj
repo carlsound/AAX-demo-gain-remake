@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8978DCD81E4F57E7003CA48C /* AAX_Exports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8978DCD71E4F57E7003CA48C /* AAX_Exports.cpp */; };
+		8978DCDA1E4F5817003CA48C /* libAAXLibrary_libcpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8978DCD91E4F5817003CA48C /* libAAXLibrary_libcpp.a */; };
+		8978DCDD1E4F58F0003CA48C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8978DCDC1E4F58F0003CA48C /* Cocoa.framework */; };
+		8978DCDF1E4F5907003CA48C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8978DCDE1E4F5907003CA48C /* AppKit.framework */; };
+		8978DCE11E4F5913003CA48C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8978DCE01E4F5913003CA48C /* CoreData.framework */; };
+		8978DCE31E4F592B003CA48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8978DCE21E4F592B003CA48C /* Foundation.framework */; };
+		8978DCE81E4F6167003CA48C /* DemoGainRemake_AlgProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8978DCE71E4F6167003CA48C /* DemoGainRemake_AlgProc.cpp */; };
+		8978DCEB1E4F6199003CA48C /* DemoGainRemake_Describe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8978DCEA1E4F6198003CA48C /* DemoGainRemake_Describe.cpp */; };
+		8978DCEE1E4F61BB003CA48C /* DemoGainRemake_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8978DCED1E4F61BB003CA48C /* DemoGainRemake_Parameters.cpp */; };
+		8978DD0D1E4FC657003CA48C /* DemoGainRemakePageTable2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8978DD0C1E4FC657003CA48C /* DemoGainRemakePageTable2.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89303E4A1E4831940022D259 /* DemoGainRemake.aaxplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGainRemake.aaxplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		89303E4D1E4831940022D259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978DCD71E4F57E7003CA48C /* AAX_Exports.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AAX_Exports.cpp; path = ../../../../Downloads/Avid/AAX_SDK_2p2p2/Interfaces/AAX_Exports.cpp; sourceTree = "<group>"; };
+		8978DCD91E4F5817003CA48C /* libAAXLibrary_libcpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAAXLibrary_libcpp.a; path = ../../../../Downloads/Avid/AAX_SDK_2p2p2/Libs/Debug/libAAXLibrary_libcpp.a; sourceTree = "<group>"; };
+		8978DCDC1E4F58F0003CA48C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8978DCDE1E4F5907003CA48C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8978DCE01E4F5913003CA48C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8978DCE21E4F592B003CA48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8978DCE41E4F610F003CA48C /* DemoGainRemakePages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DemoGainRemakePages.xml; path = Source/DemoGainRemakePages.xml; sourceTree = SOURCE_ROOT; };
+		8978DCE61E4F6155003CA48C /* DemoGainRemake_Alg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoGainRemake_Alg.h; path = Source/DemoGainRemake_Alg.h; sourceTree = "<group>"; };
+		8978DCE71E4F6167003CA48C /* DemoGainRemake_AlgProc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoGainRemake_AlgProc.cpp; path = Source/DemoGainRemake_AlgProc.cpp; sourceTree = "<group>"; };
+		8978DCE91E4F617C003CA48C /* DemoGainRemake_Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoGainRemake_Defs.h; path = Source/DemoGainRemake_Defs.h; sourceTree = "<group>"; };
+		8978DCEA1E4F6198003CA48C /* DemoGainRemake_Describe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoGainRemake_Describe.cpp; path = Source/DemoGainRemake_Describe.cpp; sourceTree = "<group>"; };
+		8978DCEC1E4F61A8003CA48C /* DemoGainRemake_Describe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoGainRemake_Describe.h; path = Source/DemoGainRemake_Describe.h; sourceTree = "<group>"; };
+		8978DCED1E4F61BB003CA48C /* DemoGainRemake_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoGainRemake_Parameters.cpp; path = Source/DemoGainRemake_Parameters.cpp; sourceTree = "<group>"; };
+		8978DCEF1E4F61CE003CA48C /* DemoGainRemake_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoGainRemake_Parameters.h; path = Source/DemoGainRemake_Parameters.h; sourceTree = "<group>"; };
+		8978DCFA1E4FA3D4003CA48C /* CommonDebugSettings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CommonDebugSettings.xcconfig; path = ../CommonDebugSettings.xcconfig; sourceTree = "<group>"; };
+		8978DCFC1E4FA3E7003CA48C /* CommonReleaseSettings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CommonReleaseSettings.xcconfig; path = ../CommonReleaseSettings.xcconfig; sourceTree = "<group>"; };
+		8978DD081E4FB369003CA48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978DD0C1E4FC657003CA48C /* DemoGainRemakePageTable2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DemoGainRemakePageTable2.xml; path = Source/DemoGainRemakePageTable2.xml; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89303E471E4831940022D259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978DCE31E4F592B003CA48C /* Foundation.framework in Frameworks */,
+				8978DCE11E4F5913003CA48C /* CoreData.framework in Frameworks */,
+				8978DCDF1E4F5907003CA48C /* AppKit.framework in Frameworks */,
+				8978DCDD1E4F58F0003CA48C /* Cocoa.framework in Frameworks */,
+				8978DCDA1E4F5817003CA48C /* libAAXLibrary_libcpp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89303E411E4831940022D259 = {
+			isa = PBXGroup;
+			children = (
+				8978DCFA1E4FA3D4003CA48C /* CommonDebugSettings.xcconfig */,
+				8978DCFC1E4FA3E7003CA48C /* CommonReleaseSettings.xcconfig */,
+				8978DCD51E4F56FC003CA48C /* Source */,
+				89303E4C1E4831940022D259 /* Resources */,
+				8978DCD61E4F5773003CA48C /* Avid Libraries */,
+				8978DD071E4FB369003CA48C /* DemoGainRemake2 */,
+				8978DCDB1E4F58F0003CA48C /* Frameworks */,
+				89303E4B1E4831940022D259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89303E4B1E4831940022D259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89303E4A1E4831940022D259 /* DemoGainRemake.aaxplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89303E4C1E4831940022D259 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8978DD0C1E4FC657003CA48C /* DemoGainRemakePageTable2.xml */,
+				8978DCE41E4F610F003CA48C /* DemoGainRemakePages.xml */,
+				89303E4D1E4831940022D259 /* Info.plist */,
+			);
+			name = Resources;
+			path = DemoGainRemake;
+			sourceTree = "<group>";
+		};
+		8978DCD51E4F56FC003CA48C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8978DCE61E4F6155003CA48C /* DemoGainRemake_Alg.h */,
+				8978DCE71E4F6167003CA48C /* DemoGainRemake_AlgProc.cpp */,
+				8978DCE91E4F617C003CA48C /* DemoGainRemake_Defs.h */,
+				8978DCEC1E4F61A8003CA48C /* DemoGainRemake_Describe.h */,
+				8978DCEA1E4F6198003CA48C /* DemoGainRemake_Describe.cpp */,
+				8978DCEF1E4F61CE003CA48C /* DemoGainRemake_Parameters.h */,
+				8978DCED1E4F61BB003CA48C /* DemoGainRemake_Parameters.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		8978DCD61E4F5773003CA48C /* Avid Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8978DCD91E4F5817003CA48C /* libAAXLibrary_libcpp.a */,
+				8978DCD71E4F57E7003CA48C /* AAX_Exports.cpp */,
+			);
+			name = "Avid Libraries";
+			sourceTree = "<group>";
+		};
+		8978DCDB1E4F58F0003CA48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8978DCE21E4F592B003CA48C /* Foundation.framework */,
+				8978DCE01E4F5913003CA48C /* CoreData.framework */,
+				8978DCDE1E4F5907003CA48C /* AppKit.framework */,
+				8978DCDC1E4F58F0003CA48C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8978DD071E4FB369003CA48C /* DemoGainRemake2 */ = {
+			isa = PBXGroup;
+			children = (
+				8978DD081E4FB369003CA48C /* Info.plist */,
+			);
+			path = DemoGainRemake2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89303E491E4831940022D259 /* DemoGainRemake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89303E501E4831940022D259 /* Build configuration list for PBXNativeTarget "DemoGainRemake" */;
+			buildPhases = (
+				89303E461E4831940022D259 /* Sources */,
+				89303E471E4831940022D259 /* Frameworks */,
+				89303E481E4831940022D259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoGainRemake;
+			productName = DemoGainRemake;
+			productReference = 89303E4A1E4831940022D259 /* DemoGainRemake.aaxplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89303E421E4831940022D259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Carlson";
+				TargetAttributes = {
+					89303E491E4831940022D259 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P8SEUM7VKM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89303E451E4831940022D259 /* Build configuration list for PBXProject "DemoGainRemake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89303E411E4831940022D259;
+			productRefGroup = 89303E4B1E4831940022D259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89303E491E4831940022D259 /* DemoGainRemake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89303E481E4831940022D259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978DD0D1E4FC657003CA48C /* DemoGainRemakePageTable2.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89303E461E4831940022D259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978DCD81E4F57E7003CA48C /* AAX_Exports.cpp in Sources */,
+				8978DCE81E4F6167003CA48C /* DemoGainRemake_AlgProc.cpp in Sources */,
+				8978DCEE1E4F61BB003CA48C /* DemoGainRemake_Parameters.cpp in Sources */,
+				8978DCEB1E4F6199003CA48C /* DemoGainRemake_Describe.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89303E4E1E4831940022D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/ExamplePlugIns/Common/Mac/CommonPlugInHeaders.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Interfaces,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Interfaces/ACF,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/GUI,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/MIDI,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/Platform/include,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/Topology,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/TI/SignalProcessing,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Libs/Debug;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		89303E4F1E4831940022D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/ExamplePlugIns/Common/Mac/CommonPlugInHeaders.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Interfaces,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Interfaces/ACF,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/GUI,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/MIDI,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/Platform/include,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Extensions/Topology,
+					/Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/TI/SignalProcessing,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/johncarlson/Downloads/Avid/AAX_SDK_2p2p2/Libs/Release;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+		89303E511E4831940022D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = DemoGainRemake/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Avid/Audio/Plug-Ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.programaudio.DemoGainRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = aaxplugin;
+			};
+			name = Debug;
+		};
+		89303E521E4831940022D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = DemoGainRemake/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Avid/Audio/Plug-Ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.programaudio.DemoGainRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = aaxplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89303E451E4831940022D259 /* Build configuration list for PBXProject "DemoGainRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89303E4E1E4831940022D259 /* Debug */,
+				89303E4F1E4831940022D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89303E501E4831940022D259 /* Build configuration list for PBXNativeTarget "DemoGainRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89303E511E4831940022D259 /* Debug */,
+				89303E521E4831940022D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89303E421E4831940022D259 /* Project object */;
+}
